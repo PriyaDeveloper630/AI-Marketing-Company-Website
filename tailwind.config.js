@@ -16,9 +16,21 @@ module.exports = {
         customGray: '#9E9C9C',
         bcolor:'#A3A3A3'
       },
+      gradientColorStops: {
+        'orange-500': '#FFA500',
+        'green-500': '#00FF00',
+      },
     },
   },
-  variants: {},
-  plugins: [],
+  variants: {
+    extend: {
+      backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
+      gradientColorStops: ['responsive', 'hover', 'focus', 'group-hover'],
+    },
+  },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/forms'),
+  ],
 }
 
