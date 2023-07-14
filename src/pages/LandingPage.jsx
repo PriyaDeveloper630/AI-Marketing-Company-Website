@@ -1,4 +1,5 @@
 import React from "react";
+import './button_style.css';
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
 import one from "../assets/1.png";
@@ -47,9 +48,13 @@ const LandingPage = () => {
           <p className="w-3/4 mx-5 text-center md:text-left text-white">
             Our vision is to revolutionize the way brands and advertisers target, reach
           </p>
-          <button style={{border: "2px solid transparent", borderImage: "linear-gradient(to right, #00f0ff, #5200ff, #ff2df7) 1",borderImageSlice: "1"}} className=" bg-black px-4 py-2 my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm border rounded-full" >
-            Get Started &gt;
-          </button>
+          <div style={{borderRadius: "10px"}}>
+  <button class ="btn" className=" bg-black px-4 py-2 my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm border rounded-full">
+    Get Started &gt;
+  </button>
+</div>
+
+
         </div>
         <div className="right flex items-center justify-center">
           <img className="w-80 md:w-96" src={globe} alt="" />
@@ -160,7 +165,7 @@ const LandingPage = () => {
           <p className="w-2/3 mx-5 text-center md:text-left text-white">
             DOML is a digital media agency powered by AI technology providing real time, <span style={{color: 'blue', fontWeight: 'bold'}}>data-driven insights</span> on your business and audience. The mission of DOML is to create the best experiences for companies through intelligent insights, powerful analytics and <span style={{color: 'blue', fontWeight: 'bold'}}>strategic execution</span>.
           </p>
-          <button className=" bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
+          <button class="btn" className=" bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
             Learn More &gt;
           </button>
         </div>
@@ -182,7 +187,7 @@ const LandingPage = () => {
     <p className="w-2/3 mx-5 text-center md:text-left text-white">
       DOML is a digital media agency powered by AI technology providing real-time, <span style={{color: 'blue', fontWeight: 'bold'}}>data-driven insights</span> on your business and audience. The mission of DOML is to create the best experiences for companies through intelligent insights, powerful analytics, and <span style={{color: 'blue', fontWeight: 'bold'}}>strategic execution</span>.
     </p>
-    <button className="bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full" style={{border: "2px solid transparent", borderImage: "linear-gradient(to right, #00f0ff, #5200ff, #ff2df7) 1",borderImageSlice: "1"}}>
+    <button class="btn" className="bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full" style={{border: "2px solid transparent", borderImage: "linear-gradient(to right, #00f0ff, #5200ff, #ff2df7) 1",borderImageSlice: "1"}}>
       Learn More &gt;
     </button>
   </div>
@@ -200,7 +205,7 @@ const LandingPage = () => {
           <p className="w-2/3 mx-5 text-center md:text-left text-white">
           DOML is a digital media agency powered by AI technology providing real time, <span style={{color: 'blue', fontWeight: 'bold'}}>data-driven insights</span> on your business and audience. The mission of DOML is to create the best experiences for companies through intelligent insights, powerful analytics and <span style={{color: 'blue', fontWeight: 'bold'}}>strategic execution</span>.
           </p>
-          <button className=" bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
+          <button class="btn" className=" bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
             Learn More &gt;
           </button>
         </div>
@@ -223,7 +228,7 @@ const LandingPage = () => {
     <p className="w-2/3 mx-5 text-center md:text-left text-white">
        It's all about getting your message in front of the right audience and creating those valuable <span style={{color: 'blue', fontWeight: 'bold'}}>relationships</span>. Learn More about how DOML can help you do just that - all with a simple, easy-to-use platform.
     </p>
-    <button className="bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
+    <button class="btn" className="bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
       Learn More &gt;
     </button>
   </div>
@@ -263,7 +268,7 @@ const LandingPage = () => {
           placeholder="Enter your work email"
           className="bg-black text-white border border-white rounded-full px-4 py-2 mx-5 my-6 text-sm w-64 sm:w-auto"
         />
-        <button className="bg-black font-bold text-white text-sm px-4 py-2 border rounded-full mt-6 md:ml-2">
+        <button class="btn" className="bg-black font-bold text-white text-sm px-4 py-2 border rounded-full mt-6 md:ml-2">
           Get in touch &gt;
         </button>
       </div>

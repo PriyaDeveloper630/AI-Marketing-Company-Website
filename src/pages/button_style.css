@@ -1,0 +1,15 @@
+:root{
+    --gradient:linear-gradient(to right, #00f0ff, #5200ff, #ff2df7);
+}
+
+.btn {
+    background: linear-gradient(#000, #000) padding-box,
+                linear-gradient(60deg, #00f, #00e8ff) border-box;
+    color: white;
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    display: inline-block;
+    /* font-size: 28px; */
+  }
+  
