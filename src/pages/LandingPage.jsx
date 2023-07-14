@@ -49,7 +49,7 @@ const LandingPage = () => {
             Our vision is to revolutionize the way brands and advertisers target, reach
           </p>
           <div style={{borderRadius: "10px"}}>
-  <button  className="btn bg-black px-4 py-2 my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm border rounded-full">
+  <button  className="btn bg-black px-4 py-2 my-6 font-bold  hover:bg-black-100 text-white text-sm border rounded-full">
     Get Started &gt;
   </button>
 </div>

@@ -4,8 +4,8 @@ import { Carousel } from 'react-responsive-carousel';
 import profile from '../assets/profile.png';
 
 const CarouselItem = ({ image, title, description }) => (
-  <div className="carousel-item flex flex-col items-center sm:flex-row sm:justify-center p-4 w-3/4 ml-12 border rounded-[16px] border-transparent sm:rounded-[16px]">
-    <div className="sm:w-1/4 sm:ml-72 mb-4 sm:mb-0">
+  <div className="carousel-item flex flex-col items-center sm:flex-row sm:justify-center p-4 w-3/4  border rounded-[16px] border-transparent sm:rounded-[16px]">
+    <div className="sm:w-1/4 sm:ml-12 mb-4 sm:mb-0">
       <img src={profile} alt="Carousel Item" className="w-96" />
     </div>
     <div className="w-3/4 sm:w-1/2 pl-4 flex flex-col items-center sm:items-start">
@@ -30,12 +30,16 @@ const ResponsiveCarousel = () => (
         @media (max-width: 640px) {
           .carousel-container {
             background: linear-gradient(to right, #00F0FF, #5200FF,#FF2DF7); /* Replace with your desired gradient colors */
+            margin-left:30%;
           }
         }
         
         @media (min-width: 641px) {
           .carousel-container {
             background-color: #171717; /* Replace with your desired gray color */
+            margin-right:10%;
+            margin-left:20%;
+
           }
         }
       `}
