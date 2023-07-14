@@ -49,7 +49,7 @@ const Navbar = () => {
             <button className="text-white hover:text-gray-300">
               Sign In
             </button>
-            <button className="ml-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+            <button className="ml-4 bg-transparent border-white hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
               Sign Up
             </button>
           </div>
