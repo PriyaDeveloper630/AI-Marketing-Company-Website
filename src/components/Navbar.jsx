@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../assets/Logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,12 +14,13 @@ const Navbar = () => {
     <nav className="bg-black text-white">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
-          <div className=" md:pl-32 mr-4">
+          <div className="md:pl-32 mr-4">
             <img className="h-8" src={Logo} alt="Logo" />
           </div>
           <div className="hidden md:flex pl-4 space-x-4">
             <a href="#" className="hover:text-gray-300">
               Product
+              <FontAwesomeIcon icon={faAngleDown} style={{ color: 'white', fontSize: '12px' }} />
             </a>
             <a href="#" className="hover:text-gray-300">
               Team
@@ -27,12 +30,15 @@ const Navbar = () => {
             </a>
             <a href="#" className="hover:text-gray-300">
               Explore
+              
+              <FontAwesomeIcon icon={faAngleDown} style={{ color: 'white', fontSize: '12px' }} />
             </a>
             <a href="#" className="hover:text-gray-300">
               Marketplace
             </a>
             <a href="#" className="hover:text-gray-300">
               Pricing
+              <FontAwesomeIcon icon={faAngleDown} style={{ color: 'white', fontSize: '12px' }} />
             </a>
           </div>
         </div>
@@ -50,10 +56,8 @@ const Navbar = () => {
               Sign In
             </button>
             <button className="ml-4 border-white border text-white font-semibold py-2 px-4 rounded-full" style={{ backgroundColor: "transparent", borderRadius: "12px" }}>
-            Sign Up
-          </button>
-
-
+              Sign Up
+            </button>
           </div>
           <div className="flex items-center">
             <button

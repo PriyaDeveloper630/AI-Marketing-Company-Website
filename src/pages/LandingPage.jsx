@@ -2,6 +2,8 @@ import React from "react";
 import './button_style.css';
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import one from "../assets/1.png";
 import two from "../assets/2.png";
 import three from "../assets/3.png";
@@ -39,7 +41,7 @@ const LandingPage = () => {
 
       <div className="slider flex flex-col-reverse justify-center md:flex-row bg-[#000]">
         <div className="left flex flex-col justify-center items-center md:items-baseline py-12 ml-5 md:ml-32 space-y-5">
-          <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
+          <h1 className="text-2xl font-medium md:text-4xl mx-5 bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
             AI Marketing.
           </h1>
           <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white">
@@ -50,7 +52,8 @@ const LandingPage = () => {
           </p>
           <div style={{borderRadius: "10px"}}>
   <button  className="btn bg-black px-4 py-2 my-6 font-bold  hover:bg-black-100 text-white text-sm border rounded-full">
-    Get Started &gt;
+    Get Started 
+    <FontAwesomeIcon icon={faArrowRight} style={{ color: 'white', fontSize: '12px' ,marginLeft:'12px'}} />
   </button>
 </div>
 
@@ -156,7 +159,7 @@ const LandingPage = () => {
       
       <div className="slider flex flex-col-reverse justify-center md:flex-row bg-[#000]" >
         <div className="left flex flex-col justify-center items-center md:items-baseline py-12 md:ml-72 space-y-5 bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-          <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white">
+        <h1 className="text-2xl font-medium md:text-4xl mx-5 bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
             AI Marketing.
           </h1>
           <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white">
@@ -166,7 +169,9 @@ const LandingPage = () => {
             DOML is a digital media agency powered by AI technology providing real time, <span style={{color: 'blue', fontWeight: 'bold'}}>data-driven insights</span> on your business and audience. The mission of DOML is to create the best experiences for companies through intelligent insights, powerful analytics and <span style={{color: 'blue', fontWeight: 'bold'}}>strategic execution</span>.
           </p>
           <button className="btn bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
-            Learn More &gt;
+            Learn More 
+    <FontAwesomeIcon icon={faArrowRight} style={{ color: 'white', fontSize: '12px' ,marginLeft:'12px'}} />
+
           </button>
         </div>
         <div className="right flex items-center justify-center">
@@ -178,9 +183,9 @@ const LandingPage = () => {
         <img className="w-72 mr-72 sm:w-96 ml-72" src={trumpet} alt="Image" />
       </div>
       <div className="left flex flex-col justify-center items-center md:items-start py-12 md:ml-72 space-y-5 bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-    <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white">
-      AI Marketing.
-    </h1>
+      <h1 className="text-2xl font-medium md:text-4xl mx-5 bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
+            AI Marketing.
+          </h1>
     <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white">
       Optimized Reach.
     </h1>
@@ -188,7 +193,9 @@ const LandingPage = () => {
       DOML is a digital media agency powered by AI technology providing real-time, <span style={{color: 'blue', fontWeight: 'bold'}}>data-driven insights</span> on your business and audience. The mission of DOML is to create the best experiences for companies through intelligent insights, powerful analytics, and <span style={{color: 'blue', fontWeight: 'bold'}}>strategic execution</span>.
     </p>
     <button className="btn bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full" style={{border: "2px solid transparent", borderImage: "linear-gradient(to right, #00f0ff, #5200ff, #ff2df7) 1",borderImageSlice: "1"}}>
-      Learn More &gt;
+      Learn More 
+    <FontAwesomeIcon icon={faArrowRight} style={{ color: 'white', fontSize: '12px' ,marginLeft:'12px'}} />
+
     </button>
   </div>
     </div>
@@ -196,7 +203,7 @@ const LandingPage = () => {
       <Carousel></Carousel>
       <div className="slider flex flex-col-reverse justify-center md:flex-row bg-[#000]" >
         <div className="left flex flex-col justify-center items-center md:items-baseline py-12 md:ml-72 space-y-5">
-          <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
+        <h1 className="text-2xl font-medium md:text-4xl mx-5 bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
             AI Marketing.
           </h1>
           <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white">
@@ -206,7 +213,9 @@ const LandingPage = () => {
           DOML is a digital media agency powered by AI technology providing real time, <span style={{color: 'blue', fontWeight: 'bold'}}>data-driven insights</span> on your business and audience. The mission of DOML is to create the best experiences for companies through intelligent insights, powerful analytics and <span style={{color: 'blue', fontWeight: 'bold'}}>strategic execution</span>.
           </p>
           <button className="btn bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
-            Learn More &gt;
+            Learn More 
+    <FontAwesomeIcon icon={faArrowRight} style={{ color: 'white', fontSize: '12px' ,marginLeft:'12px'}} />
+
           </button>
         </div>
         <div className="right flex items-center justify-center">
@@ -219,9 +228,9 @@ const LandingPage = () => {
         <img className="w-72 mr-72 sm:w-96 ml-72" src={semicircle} alt="Image" />
       </div>
       <div className="left flex flex-col justify-center items-center md:items-start py-12 md:ml-72 space-y-5">
-    <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-      AI Marketing.
-    </h1>
+      <h1 className="text-2xl font-medium md:text-4xl mx-5 bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
+            AI Marketing.
+          </h1>
     <h1 className="text-2xl font-medium md:text-4xl mx-5 text-white">
       Optimized Reach.
     </h1>
@@ -229,7 +238,9 @@ const LandingPage = () => {
        It's all about getting your message in front of the right audience and creating those valuable <span style={{color: 'blue', fontWeight: 'bold'}}>relationships</span>. Learn More about how DOML can help you do just that - all with a simple, easy-to-use platform.
     </p>
     <button className="btn bg-black my-6 font-bold mx-5 hover:bg-black-100 text-white text-sm px-4 py-2 border rounded-full">
-      Learn More &gt;
+      Learn More 
+    <FontAwesomeIcon icon={faArrowRight} style={{ color: 'white', fontSize: '12px' ,marginLeft:'12px'}} />
+
     </button>
   </div>
     </div>
@@ -269,7 +280,9 @@ const LandingPage = () => {
           className="btn bg-black text-white border border-white rounded-full px-4 py-2 mx-5 my-6 text-sm w-64 sm:w-auto"
         />
         <button className="btn bg-black font-bold text-white text-sm px-4 py-2 border rounded-full mt-0 md:ml-2">
-          Get in touch &gt;
+          Get in touch 
+    <FontAwesomeIcon icon={faArrowRight} style={{ color: 'white', fontSize: '12px' ,marginLeft:'12px'}} />
+
         </button>
       </div>
     </div>
