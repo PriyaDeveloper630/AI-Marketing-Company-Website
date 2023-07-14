@@ -14,7 +14,7 @@ const CarouselItem = ({ image, title, description }) => (
       </p>
       <h3 className="text-xl font-semibold mb-2 text-white text-center sm:text-left">Amaka Micheal</h3>
       <h4 className="text-l mb-2 text-white text-center sm:text-left">Media Executive, Buying & Control</h4>
-      <hr className="border-t-2 border-gray-300 mt-8 mb-2 w-3/4 sm:ml-8" />
+      {/* <hr className="border-t-2 border-gray-300 mt-8 mb-2 w-3/4 sm:ml-8" /> */}
       <div className="mr-8 mt-8 sm:mt-0"></div>
     </div>
   </div>
