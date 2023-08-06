@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/AI-Marketing-Company-Website/static/css/main.b70533be.css",
+    "main.js": "/AI-Marketing-Company-Website/static/js/main.356a8b5b.js",
+    "static/media/shape.png": "/AI-Marketing-Company-Website/static/media/shape.145557e4409065d9d942.png",
+    "static/media/globe.png": "/AI-Marketing-Company-Website/static/media/globe.a2e030037769e7793c45.png",
+    "static/media/trumpet.png": "/AI-Marketing-Company-Website/static/media/trumpet.afcd7f0729872f9fa7a9.png",
+    "static/media/cube2.png": "/AI-Marketing-Company-Website/static/media/cube2.e07c2042ea321e886dc5.png",
+    "static/media/semicircle.png": "/AI-Marketing-Company-Website/static/media/semicircle.eee82973040400f85e87.png",
+    "static/media/profile.png": "/AI-Marketing-Company-Website/static/media/profile.3ea7c238a667930bbad8.png",
+    "static/media/cube.png": "/AI-Marketing-Company-Website/static/media/cube.cb0a722d1d7d052d4d0a.png",
+    "index.html": "/AI-Marketing-Company-Website/index.html",
+    "main.b70533be.css.map": "/AI-Marketing-Company-Website/static/css/main.b70533be.css.map",
+    "main.356a8b5b.js.map": "/AI-Marketing-Company-Website/static/js/main.356a8b5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b70533be.css",
+    "static/js/main.356a8b5b.js"
+  ]
+}
