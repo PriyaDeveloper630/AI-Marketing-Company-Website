@@ -8,11 +8,7 @@ function App() {
   const location = useLocation();
   return (
     <>
-      <Routes>
-        
-        <Route path="/LandingPage" element={<LandingPage />} />
-       
-      </Routes>
+       <LandingPage></LandingPage>
     </>
   );
 }
